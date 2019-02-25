@@ -1,2 +1,2 @@
 # AC1-ColetadeDados
-AC1 - DevOps - Desenv. de Sistemas
+AC1 - DevOps - Desenvolvimento de Sistemas
