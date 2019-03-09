@@ -1,100 +1,110 @@
-<!DOCTYPE HTML>
-<html lang="pt-br"> 
-<head>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-    <meta name="viewport" href="width=device-width, initial-scale=1">
-    <link rel="shotcut icon" href="MICHEL.JPG" type="image/x-JPG"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    
+    <link rel="shotcut icon" href="imagens/michel.jpg" type="image/x-JPG"/>
     <title>Herson Ananias - Projeto DevOps</title>
+
+  </head>
+  <body>
+    <h1>Trabalhando com Bootstrap!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script
+  
+    </body>
+
+    <div class="jumbotron text-center">
+      <h2>Minha Primeira Página Bootstrap</h2>
+      <p>Redimensione esta página responsiva para ver o efeito!</p>
     
-</head>
-<body>
-    <h1><strong>ALUNO:</strong> HERSON MICHEL ANANIAS - <STRONG>RA:</STRONG> 1801399.</h1>
-    <h1>Meu primeiro Projeto com HTML e GITHUB!</h1>
-
-    <p><h2><strong>Seja bem vindo a minha primeira página na web com HTML5, descreverei aqui alguns conceitos vistos em sala de aula:</h2></strong></p>
-
-    <ul>
-        <li>Estrutura Básica html- Abertura e fechamento de página;</li>
-        <li>Estrutura Básica html- Abertura e fechamento de cabeçalho;</li>
-        <li>Estrutura Básica html- Título do documento;</li>
-        <li>Marcadores de Texto - <strong>Negrito</strong> <em>itálico</em> e <s>sublinhado</s>;</li>
-        <li>Marcadores de Texto - Níveis de Títulos h1, h2...</li>
-        <li>Marcadores de Texto - Links/Âncoras;</li>
-    <ol>
-        <li>Marcadores De Estrutura de Listas </li>
-        <li>Marcadores De Estrutura de Tabela </li>
-         </ol>
-
-         <li>Marcadores Atributo ID </li>
-
-    </ul>
+      <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Procurar">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+       </form> 
+    </div>
     
-
-    <p><strong><h3>Aproveito para indicar o vídeo abaixo para auxílio com o Github:</h3></strong></p>
-
-   <img src="MICHEL.JPG" alt="Herson Ananias" />
-    <iframe width="530" height="274" src="https://www.youtube.com/embed/fG6gl9ne6CE"
-    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-    <br/><h4>Modelo de Formulário:</h4>
-    <form action=""method="post">
-    <label><strong>Nome: </strong></label>
-    <input type="text"maxlength="20"name="user"size=23 
-    placeholder="Informe seu Nome Completo"><br/>
+    <p>Alunos do Grupo:</p> 
     
-    <br/><label><strong>RA: </strong></label>
-    <input type="text"maxlength="20"name="user"size=23 
-    placeholder="Informe seu RA"><br/>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h4>Herson Michel</h4>
+          <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+          <p>Ut enim ad..</p>
+        </div>
+        <div class="col-sm-2">
+          <h4>Roseane Ferreira</h4>
+          <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+          <p><a href ="RA_1802249.html" target="resource window"> Interna - Roseane Ferreira</a></p>
+        </div>
+        <div class="col-sm-2">
+          <h4>Daniele Oliveira</h4> 
+          <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+          <p><a href ="index.html" target="resource window"> Interna - Daniele Oliveira</a></p>
+        </div>
+        <div class="col-sm-2">
+          <h4>Phelipe Namam</h4>
+          <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+          <p><a href ="RA_1802184.html" target="resource window"> Interna - Phelipe Namam</a></p>
+        </div>
+        <div class="col-sm-2">
+                <h4>Daniel</h4>
+                <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+                <p>?</a></p>
+              </div>
+      </div>
+    </div>
     
-    <br/><label><strong>Login: </strong></label>
-    <input type="text"maxlength="20"name="user"size=23 
-            placeholder="Informe o seu Login"><br/>
-    <br/><label><strong>Senha: </strong></label>
-    <input id="senhaUsuario" type="password" maxlength="20"name="user"size=16 
-    placeholder="Digite sua senha" required>
-    <input type="submit" value="Salvar"><br/>
-    <br/><label><strong>Disciplina: </strong></label>
-    <select name="Disc">
-            <option value="OP">Escolha a Disciplina</option>    
-            <option value="DS">Desenvolvimento de Sistemas</option>       
-            <option value="AD">Ambiente de Desenvolvimento e Operação</option>
-            <option value="LQ">Linguagem SQL</option>
-            <option value="ES">Engenharia de Software</option>
-            <option value="AE">Análise Exploratória de Dados</option>
-            <option value="LI">Libras<br/>
-    </select><br/>
-    <br/><label><strong>Data de Conclusão: </strong></label><input type="date" min="5" max="10">
-    </form>
+    <!-- Left-aligned -->
+    <div class="media">
+            <div class="media-left media-top">
+              <img src="imagens/michel.jpg" class="media-object" style="width:60px">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Herson Ananias</h4>
+              <p>Estudante de Banco de Dados na Faculdade Impacta!</p>
+            </div>
+    </div>
     
-    <br/><h5>Modelo de Tabela:</h5>
-   <table border "1">
-    <tr>
-        <td rowspan="3"> Caixa </td>
-        <td>Janeiro</td>
-        <td>R$100,00</td>
-    </tr>
-
-    <tr>
-        <td>Fevereiro</td>
-        <td>R$80,00</td>
-    </tr>
-    <tr>
-        <td colspan="2">Soma R$180,00</td>
-    </tr>
-
-
-   </table> 
+    <br/>
+    <form>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input id="login" type="text" class="form-control" name="login" placeholder="Login">
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+          <input id="password" type="password" class="form-control" name="password" placeholder="Senha"><br/>
+        </div>
+        <div class="input-group">
+          <label><input type="checkbox"> Lembrar-me</label><br/>
+        </div>
+        <div class="input-group">
+          <button type="submit" class="btn btn-default">Enviar</button><br/>
+        </div>
+      </form>
+      <p></p>
+    <div class="alert alert-success">
+        <strong>Sucesso!</strong> Usuário incluido com  Sucesso.
+      </div>
     
-
-</body>
-
-</html>
-
-<br/></br>
-Exemplo de referência/ancora <a href ="index.html" target="resource window"> Interna - Daniele Oliveira</a></br>
-Exemplo de referência/ancora <a href ="RA_1802249.html" target="resource window"> Interna - Roseane Ferreira</a></br>
-Exemplo de referência/ancora <a href ="RA_1802184.html" target="resource window"> Interna - Phelipe Namam</a></br> 
-Exemplo de referência/ancora <a href="https://www.impacta.edu.br/" target="resource window">Externa - Faculdade Impacta</a>
-
-</html>
+    
+    </body>
+    </html>   
+    

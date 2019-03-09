@@ -1,0 +1,24 @@
+{
+  "name": "ac1-coletadedados",
+  "version": "1.0.0",
+  "description": "AC1 - DevOps - Desenvolvimento de Sistemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roseanersn/AC1-ColetadeDados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roseanersn/AC1-ColetadeDados/issues"
+  },
+  "homepage": "https://github.com/roseanersn/AC1-ColetadeDados#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
