@@ -1,72 +1,321 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AC 1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-       <h1>AC 1</h1>
+<!-- Modelo de Estrutura para uso da AC3 -->
 
-<ul>
-    <li>Objetivo AC 1:</li>
-</ul>
-<ol start="1" type="a">
-    <li>Criar uma página html por integrante do grupo</li>
-    <li>Um integrante deverá criar uma página principal com links de acesso aos demais</li>
-    <li>Importar para o Git Hub</li>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <title>AC3 Bootstrap!</title>
+    <link rel="shotcut icon" href="imagens/daniele.jpg" type="image/x-JPG"/>
+  </head>
+  <body>
     
-</ol>
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script>window.jQuery || document.write('/node_modules/jquery/dist/jquery.slim.min.js')</script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+    </head>
+  
+<body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">AC3-Bootstrap</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="O que está procurando?" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Buscar</a>
+        </li>
+      </ul>
+    </nav>
 
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  AC3-Bootstrap <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="users"></span>
+                  Daniele
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="RA_1801399.html" target="_blank">
+                    <span data-feather="users"></span>
+                  Herson
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="RA_1802249.html" target="_blank">
+                  <span data-feather="users"></span>
+                  Roseane
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="RA_1802184.html" target="_blank">
+                        <span data-feather="users"></span>
+                  Phelipe
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="href=https://account.impacta.edu.br/" target="_blank">
+                  <span data-feather="layers"></span>
+                  Login Impacta
+                </a>
+              </li>
+            </ul>
 
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Saved reports</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Mês Corrente
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Último quarto
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Compromisso Social
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file-text"></span>
+                  Vendas do Ano
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-<table border="">
-        <tr>
-            <th>RA</th>
-            <th>Nome</th>
-            <th>Disciplina</th>
-            <th>Links Grupo</th>
-        </tr>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h2">Análise Exploratória</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary">Compartilhar</button>
+                <button class="btn btn-sm btn-outline-secondary">Exportar</button>
+              </div>
+              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                Esta Semana
+              </button>
+            </div>
+          </div>
 
-        <tr>
-            <td>1802250</td>
-            <td>Daniele Cristina Oliveira</td>
-            <td>BD NOITE </td>
-            <td>index </td>
+          <canvas class="my-4" id="myChart" width="900" height="380"></canvas>
 
-        </tr>
+          <h2>Dados Fictícios</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>Valor</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                  <td>dolor</td>
+                  <td>sit</td>
+                </tr>
+                <tr>
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  <td>adipiscing</td>
+                  <td>elit</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                  <td>odio</td>
+                  <td>Praesent</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                  <td>cursus</td>
+                  <td>ante</td>
+                </tr>
+                <tr>
+                  <td>1,004</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                  <td>Sed</td>
+                  <td>nisi</td>
+                </tr>
+                <tr>
+                  <td>1,005</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                  <td>sem</td>
+                  <td>at</td>
+                </tr>
+                <tr>
+                  <td>1,006</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                  <td>imperdiet</td>
+                  <td>Duis</td>
+                </tr>
+                <tr>
+                  <td>1,007</td>
+                  <td>sagittis</td>
+                  <td>ipsum</td>
+                  <td>Praesent</td>
+                  <td>mauris</td>
+                </tr>
+                <tr>
+                  <td>1,008</td>
+                  <td>Fusce</td>
+                  <td>nec</td>
+                  <td>tellus</td>
+                  <td>sed</td>
+                </tr>
+                <tr>
+                  <td>1,009</td>
+                  <td>augue</td>
+                  <td>semper</td>
+                  <td>porta</td>
+                  <td>Mauris</td>
+                </tr>
+                <tr>
+                  <td>1,010</td>
+                  <td>massa</td>
+                  <td>Vestibulum</td>
+                  <td>lacinia</td>
+                  <td>arcu</td>
+                </tr>
+                <tr>
+                  <td>1,011</td>
+                  <td>eget</td>
+                  <td>nulla</td>
+                  <td>Class</td>
+                  <td>aptent</td>
+                </tr>
+                <tr>
+                  <td>1,012</td>
+                  <td>taciti</td>
+                  <td>sociosqu</td>
+                  <td>ad</td>
+                  <td>litora</td>
+                </tr>
+                <tr>
+                  <td>1,013</td>
+                  <td>torquent</td>
+                  <td>per</td>
+                  <td>conubia</td>
+                  <td>nostra</td>
+                </tr>
+                <tr>
+                  <td>1,014</td>
+                  <td>per</td>
+                  <td>inceptos</td>
+                  <td>himenaeos</td>
+                  <td>Curabitur</td>
+                </tr>
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
+      </div>
+    </div>
 
-        <tr>
-            <td>1802249</td> <!--RA-->
-            <td>Roseane Ferreira</td> <!--NOME-->
-            <td>BD NOITE</td> <!--DISCIPLINA-->
-            <td><a href="RA_1802249.html"> Click</a></td> <!--link-->
-        </tr>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
 
-        <tr>
-            <td>1801399</td> <!--RA-->
-            <td>Herson Michel Ananias</td> <!--NOME-->
-            <td>BD NOITE</td> <!--DISCIPLINA-->
-            <td><a href="RA_1801399.html"> Click</a></td> <!--link-->
-        </tr>
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
 
-        <tr>
-            <td>1802184</td> <!--RA-->
-            <td>Phelipe Naman</td> <!--NOME-->
-            <td>BD NOITE</td> <!--DISCIPLINA-->
-            <td><a href="RA_1802184.html"> Click</a></td> <!--link-->
-        </tr>
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
 
-        <tr>
-            <td></td> <!--RA-->
-            <td>Daniel dos Santos Arruda</td> <!--NOME-->
-            <td></td> <!--DISCIPLINA-->
-            <td></td> <!--DISCIPLINA-->
-        </tr>
-
-</table>
-
-</body>
+    <footer class="container">
+        <p>&copy; Group DevOps - By Faculdade Impacta | 2019-2020</p>
+      </footer>
+  </body>
 </html>
